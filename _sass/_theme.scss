@@ -91,6 +91,7 @@ nav a:focus {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  padding: 1rem;
   gap: 1rem;
     box-shadow:
     3px 3px 0 var(--red),
@@ -102,6 +103,7 @@ main {
   background: var(--black);
   border: 3px solid var(--white);
   padding: 1rem;
+  margin: 1rem;
   box-shadow:
     3px 3px 0 var(--red),
     -3px -3px 0 var(--blue);
