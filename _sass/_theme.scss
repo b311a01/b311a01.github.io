@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: Pigpen Cipher;
+  src: url(/assets/fonts/PigpenCipher.otf);
+}
+
 /* Root colors inspired by 8/16-bit palettes */
 :root {
   --black: #000000;
@@ -124,6 +130,28 @@ footer {
     1px 1px 0 var(--blue);
   user-select: none;
 }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+    border: 3px solid var(--white);
+  background: var(--black);
+}
+
+/* Cyphers in block quotes */
+blockquote {
+  font-family: Pigpen Cipher;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--yellow);
+  border-right: 4px solid var(--yellow);
+  background: var(--black);
+    box-shadow:
+    3px 3px 0 var(--red),
+    -3px -3px 0 var(--blue);
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
