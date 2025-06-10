@@ -4,10 +4,10 @@ title: Documents
 permalink: /documents/
 ---
 <ul>
-  {% for post in site.posts %}
+  {% for document in site.documents %}
     <li>
-    <p>{{ post.date }}</p>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <p>{{ document.date }}</p>
+      <a href="{{ document.url }}">{{ document.title }}</a>
     </li>
   {% endfor %}
 </ul>
