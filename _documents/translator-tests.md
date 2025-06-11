@@ -7,21 +7,19 @@ excerpt: this is just some tests to see if I can get the translator to work bett
 ---
 # Tests for the translator!
 
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
-
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-## Header 2 (H1 is reserved for post titles)##
+# Header 1 (Reserved for post/page titles)
+## Header 2
 
 ### Header 3
 
 #### Header 4
  
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+A link to [homepage](https://b311a01.github.io/). A big literal link <https://b311a01.github.io/>
   
 An image, located within /images
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
+![Image]({{ site.baseurl }}/assets/images/lol.gif){:width="50%"}
 
 * A bulletted list
 - alternative syntax 1
