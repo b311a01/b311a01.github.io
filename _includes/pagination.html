@@ -1,0 +1,13 @@
+<ul class="pager">
+  {% if page.previous %}
+    <li><a class="btn btn-outline-primary" href="{{ page.previous.url }}">Next</a></li>
+  {% else %}
+    <li class="disable"><a class="btn btn-outline-primary disabled" href="#">Next</a></li>
+  {% endif %}
+
+  {% if page.next %}
+    <li><a class="btn btn-outline-primary" href="{{ page.next.url }}">Previous</a></li>
+  {% else %}
+    <li class="disable"><a class="btn btn-outline-primary disabled" href="#">Previous</a></li>
+  {% endif %}
+</ul>

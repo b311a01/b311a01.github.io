@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "History Project Complete! ^^"
-date:   2000-01-12
+date:   2000-01-01 00:00:58
 categories: jekyll update
 excerpt: I've been working on this for so long. At least its ready now.
 ---
