@@ -153,7 +153,11 @@ blockquote {
     3px 3px 0 var(--red),
     -3px -3px 0 var(--blue);
 }
-
+/* Cyphers in bold text */
+b, strong {
+  font-family: Pigpen Cipher !important;; 
+  color: red;
+}
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
